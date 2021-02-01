@@ -1,4 +1,5 @@
 /*-----------Переменные цвета---*/
+/*             variabless       */
 :root {
   --accent-color: #2196f3;
   --text-color: #757575;
@@ -6,43 +7,15 @@
   --active-color: #ffffff;
   --hero-color: #2f303a;
 }
+/*         end    variabless       */
 /*-шрифт на все кроме ссылок и кнопок*/
-body {
-  /* max-width: 1600px; */
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.142;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
+
 /*- обнуляем отступы*/
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-}
-img {
-  display: block;
-}
 
 /*убираем декор у ссылок и у списков*/
-a {
-  text-decoration: none;
-  color: var(--basic-color);
-}
-li {
-  list-style-type: none;
-}
+
 /* контейнер для всех секций */
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
+
 /* ---ШАПКА----*/
 .header {
   border-bottom: 1px solid #ececec;
@@ -222,16 +195,7 @@ span {
 }
 /*--секция 2 список--*/
 /* ----------прячем заголовок---------- */
-.visually-hiden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
+
 .list {
   display: flex;
   align-items: center;

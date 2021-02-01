@@ -1,0 +1,53 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.hero {
+  background-color: var(--hero-color);
+  height: 600px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.hero {
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../imaiges/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.list {
+  display: flex;
+  align-items: center;
+  padding-bottom: 94px;
+}
+.work {
+  padding-bottom: 94px;
+}
+.command {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+footer {
+  display: block;
+  background-color: var(--hero-color);
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+//     portfolio
+.total {
+  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
