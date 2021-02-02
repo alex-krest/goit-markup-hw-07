@@ -5,3 +5,14 @@
   padding-right: 15px;
   margin: 0 auto;
 }
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.container.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.items {
+  margin-bottom: 50px;
+}

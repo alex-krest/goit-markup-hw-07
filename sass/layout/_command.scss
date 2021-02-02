@@ -1,0 +1,75 @@
+/* ------секция 4--------------- */
+.command {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+.command-list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--active-color);
+  border-radius: 50%;
+  margin-right: 10px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* ДИНАМИКА ЦВЕТА ССЫЛКИ И КАРТИНКИ */
+.social-link:focus,
+.social-link:hover {
+  background-color: var(--accent-color);
+}
+.social-link:focus .social-icon,
+.social-link:hover .social-icon {
+  fill: var(--active-color);
+}
+/* -------------------------- */
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.command-article:not(:last-child) {
+  margin-right: 30px;
+}
+.command-article {
+  background-color: var(--active-color);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.command-subject {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--basic-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.command-text {
+  font-style: normal;
+  font-weight: 400l;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}

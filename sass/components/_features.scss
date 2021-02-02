@@ -1,0 +1,56 @@
+.list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.list-item {
+  width: 270px;
+}
+.list-item::before {
+  content: "";
+  display: block;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  margin-top: 94px;
+  margin-bottom: 30px;
+}
+.antenna::before {
+  background-image: url(../imaiges-svg/antenna-1.svg);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.diagram::before {
+  background-image: url(../imaiges-svg/diagram-1.svg);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.astronaut::before {
+  background-image: url(../imaiges-svg/astronaut-1.svg);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.clock::before {
+  background-image: url(../imaiges-svg/clock-1.svg);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.list-caption {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--basic-color);
+  margin-bottom: 10px;
+}
+.text-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
