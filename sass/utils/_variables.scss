@@ -44,27 +44,7 @@
   min-width: 696px;
   padding-bottom: 30px;
 }
-.btn-hero {
-  border: 0;
-  padding: 10px 32px;
-  min-width: 73px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  color: var(--active-color);
-  background-color: var(--accent-color);
-  border-radius: 4px;
-  cursor: pointer;
-}
-.list-caption {
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--basic-color);
-  margin-bottom: 10px;
-}
+
 .text-list {
   font-style: normal;
   font-weight: 400;
@@ -96,7 +76,7 @@
 }
 .command-text {
   font-style: normal;
-  font-weight: 400l;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.187;
   text-align: center;

@@ -1,14 +1,8 @@
-.header {
-  border-bottom: 1px solid #ececec;
-}
 
 .hero {
   background-color: var(--hero-color);
   height: 600px;
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
+  text-align: center;}
 .hero {
   height: 600px;
   padding-top: 200px;
@@ -26,17 +20,13 @@
   align-items: center;
   padding-bottom: 94px;
 }
-.work {
-  padding-bottom: 94px;
-}
+
 .command {
-  padding-top: 94px;
-  padding-bottom: 94px;
+	@extend %padding;
   background-color: #f5f4fa;
 }
 .clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+	@extend %padding;
 }
 footer {
   display: block;
@@ -48,6 +38,5 @@ footer {
 //     portfolio
 .total {
   align-items: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @extend %padding;
 }
