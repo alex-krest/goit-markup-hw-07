@@ -745,6 +745,12 @@ footer {
   align-items: center;
 }
 
+.mail-header,
+.phone-header {
+  display: flex;
+  align-items: center;
+}
+
 .mail-icon,
 .phone-icon {
   fill: var(--text-color);
@@ -775,23 +781,23 @@ footer {
   fill: var(--accent-color);
 }
 
-.nav-phone .nav-mail {
-  margin-right: 50px;
+.nav-mail {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 50px;
   display: flex;
   align-items: center;
   font-style: normal;
   color: var(--text-color);
 }
 
-.nav-phone .nav-mail:focus .mail-icon,
-.nav-phone .nav-mail:hover .mail-icon {
+.nav-mail:focus .mail-icon,
+.nav-mail:hover .mail-icon {
   fill: var(--accent-color);
 }
 
-.nav-phone .nav-mail:focus, .nav-phone .nav-mail:hover {
+.nav-mail:focus, .nav-mail:hover {
   color: var(--accent-color);
 }
 
